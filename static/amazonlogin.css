@@ -1,0 +1,128 @@
+/* BEGIN HEADER */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#amazon-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* END HEADER */
+
+/* BEGIN MAIN */
+
+#box1 {
+    max-width: 40%;
+    margin: 40px auto;
+    border: 1px solid lightgray;
+}
+
+#box1 h3 {
+    font-weight: 250;
+    padding: 10px;
+    max-width: 70%;
+}
+
+#box1 form {
+    max-width: 70%;
+    padding: 20px;
+
+}
+
+#box1 a {
+    display: inline;
+    padding-left: 70px;
+}
+
+input[type=text] {
+    width: 400px;
+}
+
+#btn {
+    max-width: 70%;
+    justify-content: space-between;
+}
+
+.btn-continue {
+    background-color: rgb(253, 189, 70);
+    border: .5px solid black;
+    color: black;
+    width: 400px;
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+
+}
+
+#need-help {
+    padding-bottom: 20px;
+}
+
+.new {
+    font-weight: 50;
+    max-width: 400px;
+    text-align: center;
+    padding-left: 340px;
+
+}
+
+.new h5 {
+    width: 420px;
+    text-align: center;
+    border-bottom: .5px solid black;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    font-weight: 100;
+}
+
+.new span {
+    background: #fff;
+    padding: 0px 10px;
+}
+
+.btn-create {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.btn-create input[type=submit] {
+    width: 35%;
+}
+/* END MAIN */
+
+/* BEGIN FOOTER */
+
+hr {
+    background-color: black;
+}
+
+footer{
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+footer p {
+    font-weight: 150;
+    font-size: small;
+}
+    
+
+
+/* END FOOTER */
